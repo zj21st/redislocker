@@ -12,7 +12,7 @@ redis配置在config/RedissonConfig.java中
 
 ### API
 * 非事务加锁范例 /work/{id}
-* 非事务加锁范例 /unlock/{id}
+* 非事务解锁范例 /unlock/{id}
 * 事务加锁解锁范例 /getdistributedLocker/{id}
 
 ###### created by zhoujian (6396998@qq.com) 2020/6/24 
